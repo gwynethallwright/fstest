@@ -21,7 +21,3 @@ expect 0 unlink ${n0}
 expect 0 symlink test ${n0}
 expect EEXIST mkdir ${n0} 0755
 expect 0 unlink ${n0}
-
-expect 0 mkfifo ${n0} 0644
-expect EEXIST mkdir ${n0} 0755
-expect 0 unlink ${n0}
