@@ -6,7 +6,7 @@ desc="link creates hardlinks"
 dir=`dirname $0`
 . ${dir}/../misc.sh
 
-echo "1..82"
+echo "1..42"
 
 n0=`namegen`
 n1=`namegen`

@@ -6,7 +6,7 @@ desc="unlink removes regular files, symbolic links, fifos and sockets"
 dir=`dirname $0`
 . ${dir}/../misc.sh
 
-echo "1..55"
+echo "1..36"
 
 n0=`namegen`
 n1=`namegen`

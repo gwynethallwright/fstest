@@ -6,7 +6,7 @@ desc="rename changes file name"
 dir=`dirname $0`
 . ${dir}/../misc.sh
 
-echo "1..79"
+echo "1..57"
 
 n0=`namegen`
 n1=`namegen`

@@ -6,7 +6,7 @@ desc="link returns EEXIST if the destination file does exist"
 dir=`dirname $0`
 . ${dir}/../misc.sh
 
-echo "1..14"
+echo "1..11"
 
 n0=`namegen`
 n1=`namegen`

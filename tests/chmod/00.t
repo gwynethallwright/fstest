@@ -7,9 +7,9 @@ dir=`dirname $0`
 . ${dir}/../misc.sh
 
 if supported lchmod; then
-	echo "1..77"
+	echo "1..64"
 else
-	echo "1..58"
+	echo "1..45"
 fi
 
 n0=`namegen`

@@ -6,7 +6,7 @@ desc="unlink returns EACCES or EPERM if the directory containing the file is mar
 dir=`dirname $0`
 . ${dir}/../misc.sh
 
-echo "1..33"
+echo "1..24"
 
 n0=`namegen`
 n1=`namegen`
